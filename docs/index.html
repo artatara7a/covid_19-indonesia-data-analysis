@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>covid_19-indonesia-data-analysis-ara</title>
+
+    <style>
+        .hidden { display: none; }
+        body, html {
+            margin: 10px;
+            padding: 0;
+            height: 100%;
+            position: relative;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 75px;
+        }
+        .image-wrapper {
+            max-width: 100%;
+        }
+        .image {
+            width: 100%;
+            height: auto;
+        }
+        h1{
+            text-align: center;
+        }
+        .link {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+        .link:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            position: fixed;
+            bottom: 0; 
+            left: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.5); 
+            text-align: center;
+            padding: 1px 0; 
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.1); 
+            box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.1);
+            color: #333;
+        }
+        .caption {
+            max-width: 50%;
+            text-align: justify;
+            padding-left: 10px;
+        }
+        .divv {
+            padding-top: 75px;
+            text-align: justify;
+        }
+        .dashed-line {
+            width: 100%;
+            border-top: 2px dashed #333; /* ketebalan dan gaya garis */
+            margin: 5px; /* jarak antara dua garis */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Analisis Data Covid-19 Indonesia</h1>
+
+    <p style="text-align: center; padding-bottom: 50px;">Halaman ini berisi tampilan grafik yang dihasilkan dari baris kode yang dapat dilihat pada
+        <a href="https://github.com/ImtiyasAzzahra/covid_19-indonesia-data-analysis/blob/master/covid_19-indonesia-data-analysis-ara.ipynb" 
+        class="link" target="_blank">halaman berikut</a>, enjoy!
+    </p>
+
+    <div class="dashed-lines">
+        <div class="dashed-line"></div>
+        <div class="dashed-line"></div>
+    </div>
+    
+    <p class="divv" style="padding-left: 10px;">Grafik berikut menjelaskan perkembangan rasio kasus Covid-19 di Indonesia selama tahun 2020 hingga 2022.        
+        Dari grafik tersebut terlihat bahwa, pada tahun 2021 menjadi tahun dengan rasio kasus Covid-19 tertinggi di Indonesia.</p>    
+    <iframe src="g_1.html" width="100%" height="600px" frameborder="0"></iframe>
+
+    <p class="divv" style="padding-left: 10px;">Rincian dari perkembangan rasio kasus Covid-19 selama tahun 2020 - 2022 di Indonesia
+        pada grafik sebelumnya dapat dilihat pada grafik dibawah ini.</p>
+    <iframe src="g_2.html" width="100%" height="600px" frameborder="0"></iframe>
+
+    <p class="divv" style="padding-left: 10px;">Berikut merupakan grafik yang menunjukkan perkembangan rasio kasus Covid-19 di pulau Indonesia.
+        Dimana, pulau Sumatera menjadi pulau dengan total rasio kasus Covid-19 tertinggi di Indonesia.</p>
+    <iframe src="g_3.html" width="100%" height="600px" frameborder="0"></iframe>
+
+    <p class="divv" style="padding-left: 10px;">Rincian dari perkembangan rasio kasus Covid-19 di pulau Indonesia
+        pada grafik sebelumnya dapat dilihat pada grafik dibawah ini.</p>
+    <iframe src="g_4.html" width="100%" height="600px" frameborder="0"></iframe>
+
+    <p class="divv" style="padding-left: 10px;">Selanjutnya merupakan grafik yang menjelaskan rincian dari perkembangan rasio kasus Covid-19 per Populasi di pulau Indonesia
+        dari grafik perkembangan rasio kasus Covid-19 di pulau Indonesia sebelumnya.</p>
+    <iframe src="g_5.html" width="100%" height="600px" frameborder="0"></iframe>
+
+    <p class="divv" style="padding-left: 10px;">Berikut merupakan grafik yang menunjukkan perkembangan rasio kasus Covid-19 di pulau Indonesia selama tahun 2020 hingga 2022 dijelaskan pada grafik berikut.
+        Dimana, pulau Sumatera menjadi pulau dengan total rasio kasus Covid-19 tertinggi di Indonesia selama tahun 2020 hingga 2022.</p>
+    <iframe src="g_6.html" width="100%" height="600px" frameborder="0"></iframe>
+
+    <p class="divv" style="padding-left: 10px;">Rincian dari perkembangan rasio kasus Covid-19 di pulau Indonesia selama tahun 2020 hingga 2022
+        pada grafik sebelumnya dapat dilihat pada grafik dibawah ini.</p>
+    <iframe src="g_7.html" width="100%" height="600px" frameborder="0"></iframe>
+
+    <p class="divv" style="padding-left: 10px;">Selanjutnya merupakan grafik yang menjelaskan rincian dari perkembangan rasio kasus Covid-19 per Populasi di pulau Indonesia selama tahun 2020 hingga 2022
+        dari grafik perkembangan rasio kasus Covid-19 di pulau Indonesia selama tahun 2020 hingga 2022 sebelumnya.</p>
+    <iframe src="g_8.html" width="100%" height="600px" frameborder="0"></iframe>
+
+    <p class="divv" style="padding-left: 10px;">Sedangkan, grafik berikut menjelaskan rincian perkembangan kasus Covid-19 di pulau Indonesia selama tahun 2020 hingga 2022.
+        Meliputi kasus kematian, kesembuhan, dan keterjangkitan akibat Covid-19.</p>
+    <div class="image-wrapper">
+        <img class="image" src="g_9.png" alt="Gambar" />          
+    </div>
+
+    <div class="container">        
+        <div class="image-wrapper">
+          <img class="image" src="g_10.png" alt="Gambar" />          
+        </div>
+        <div class="caption">
+            <p>Grafik disamping merepresentasikan kasus kematian akibat Covid-19 disetiap provinsi pada pulau Sumatera pada tahun 2020.
+                Dari grafik tersebut terlihat bahwa, provinsi Sumatera Utara menjadi provinsi dengan kasus kematian tertinggi di pulau Sumatera pada tahun 2020.</p>
+        </div>
+    </div>
+
+    <p class="divv" style="padding-left: 10px;">Berikut merupakan grafik terakhir yang menjelaskan perkembangan kasus kematian akibat Covid-19 disetiap provinsi pada pulau Sumatera selama tahun 2020 hingga 2022.        
+        Sumatera Utara dan Lampung menjadi provinsi dengan kasus kematian tertinggi di pulau Sumatera untuk tahun 2020 dan tahun 2021. 
+        Sedangkan pada tahun 2022, provinsi Sumatera Utara lagi-lagi menjadi provinsi dengan kasus kematian tertinggi di pulau Sumatera.</p>
+    <div class="image-wrapper">
+        <img class="image" src="g_11.png" alt="Gambar" style="padding-bottom: 65px;"/>          
+    </div>
+
+    <div class="footer">
+        <p>©2024 Ara
+            <br>Analisis Data Covid-19 Indonesia</p>
+    </div>
+</body>
+</html>
