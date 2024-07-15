@@ -1,8 +1,7 @@
-<div style="font-size: 25px; font-weight: bolder;">
-    <p align="center">Covid-19 Indonesia Data Analysis</p>
-</div>
+<p align="center" style="font-size: 25px; font-weight: bolder;">Covid-19 Indonesia Data Analysis</p>
 
-## 🧰 Tools
+### 🧰 Tools
+-------------------------------------------------------------
 - Python
 - SQL
 - Pandas
@@ -12,7 +11,8 @@
 - HTML
 - CSS
 
-## 🗂️ Documentation
+### 🗂️ Documentation
+-------------------------------------------------------------
 1. Pre-processing
     - Transforming
 
