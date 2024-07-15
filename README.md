@@ -60,13 +60,13 @@
 2. Processing (Result)
     
     - Analysis of Indonesian Covid Cases by Year        
-        <img src='![docs\newplot.png](https://raw.githubusercontent.com/artatara7a/covid_19-indonesia-data-analysis/master/docs/newplot.png.png)' alt="Gambar" width="100%"/>
+        <img src='https://raw.githubusercontent.com/artatara7a/covid_19-indonesia-data-analysis/master/docs/newplot.png' alt="Gambar" width="100%"/>
                 
     - Analysis of Indonesian Covid Cases by Island          
-        <img src="![docs\newplot2.png](https://raw.githubusercontent.com/artatara7a/covid_19-indonesia-data-analysis/master/docs/newplot2.png.png)" alt="Gambar" width="100%"/>
+        <img src="https://raw.githubusercontent.com/artatara7a/covid_19-indonesia-data-analysis/master/docs/newplot2.png" alt="Gambar" width="100%"/>
 
     - Analysis of Indonesian Covid Cases by Island and Year
-        ![Gambar](https://raw.githubusercontent.com/artatara7a/covid_19-indonesia-data-analysis/master/docs/newplot3.png.png)
+        ![Gambar](https://raw.githubusercontent.com/artatara7a/covid_19-indonesia-data-analysis/master/docs/newplot3.png)
 
     - Other Analysis
         ![Gambar](https://raw.githubusercontent.com/artatara7a/covid_19-indonesia-data-analysis/master/docs/g_11.png)
