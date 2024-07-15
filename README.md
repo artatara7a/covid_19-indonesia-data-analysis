@@ -1,4 +1,4 @@
-<p align="center" style="font-size: 25px; font-weight: bolder;">Covid-19 Indonesia Data Analysis</p>
+<p style="font-size: 25px; font-weight: bolder; text-align: center">Covid-19 Indonesia Data Analysis</p>
 
 ## 🧰 Tools
 - Python
